@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#survey-creator {
+  .svd_editors {
+
+    .svd_questions_editor {
+      padding-top: 0 !important;
+    }
+
+    .svd-designer-container {
+      min-width: 400px !important;
+    }
+
+    .sv_header.svd_survey_header {
+      display: none !important;
+    }
+
+    .sv_page_title.title_editable {
+      display: none !important;
+    }
+
+    .description_editable {
+      display: none !important;
+    }
+  }
+
+  .svd-designer-container--right-side {
+    .svd-popup-editor-tab-choices {
+      .form-group:first-child {
+
+        .form-control[aria-label="Text"] {
+          min-width: 100px;
+        }
+
+        .form-control[aria-label="Score"] {
+          min-width: 50px;
+        }
+
+        div[data-bind="visible: koIsList"] {
+          overflow-x: auto !important;
+        }
+      }
+    }
+  }
+}
+
